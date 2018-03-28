@@ -1,0 +1,73 @@
+@charset "utf-8";
+@import url('normalize.css');
+@import url('reset.css');
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+body {
+  font-family: 'NanumSquare', sans-serif;
+  color: #343434;
+}
+a {
+  color: inherit;
+}
+.header {
+  padding: 100px 30px 30px;
+  background-color: #607D8B;
+  color: #fff;
+}
+.header-title {
+  font-size: 1.5em;
+  line-height: 1.2;
+}
+.header-title b {
+  display: block;
+  font-size: 3em;
+}
+.main {
+  margin: 30px;
+  min-height: 60vh;
+}
+.work-list-item {
+  margin-top: 30px;
+  padding-left: 32px;
+}
+.work-list-item span {
+  font-size: 1.333em;
+  line-height: 1.5;
+}
+.work-list-item span i {
+  float: left;
+  margin-left: -32px;
+  color: #90A4AE;
+}
+.work-list-item dl {
+  padding-left: 70px;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+.work-list-item dt {
+  float: left;
+  margin-left: -70px;
+  color: #607D8B
+}
+.work-list-item dd {
+
+}
+.work-link-list {
+  margin-top: 15px;
+}
+.work-link-list li {
+  margin-top: 10px;
+  padding-left: 24px;
+}
+.work-link-list i {
+  float: left;
+  margin-left: -24px;
+  color: #B0BEC5;
+}
+.footer {
+  padding: 15px 30px;
+  color: #90A4AE;
+  text-align: right;
+  background-color: #263238;
+}
